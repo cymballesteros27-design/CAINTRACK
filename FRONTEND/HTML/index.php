@@ -1,4 +1,5 @@
 <?php
+
 $systemName = 'CAINTRACK';
 $fullTitle  = 'A Web-Based Barangay Document Monitoring and Tracking System for DILG Cainta, Rizal';
 

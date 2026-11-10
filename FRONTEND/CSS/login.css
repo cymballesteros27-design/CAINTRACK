@@ -1,0 +1,90 @@
+.login-page {
+    position: relative;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(244, 133, 36, 0.80),
+            rgba(244, 133, 36, 0.80)
+        ),
+        url('../images/caintabg.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-wrap {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem 1.25rem;
+}
+
+.login-card {
+    width: min(440px, 100%);
+    background: var(--white);
+    border: 2px solid var(--ink);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 8px 8px 0 var(--ink);
+}
+
+.login-brand { margin-bottom: 1.5rem; }
+
+.login-card h1 { margin: 0 0 0.25rem; font-size: 1.9rem; line-height: 1.2; }
+
+.login-sub { margin: 0 0 1.5rem; color: var(--muted); }
+
+.form-error {
+    margin: 0 0 1.25rem;
+    padding: 0.75rem 1rem;
+    border-left: 5px solid #A12A1A;
+    background: #FCE8E4;
+    color: #7A1F13;
+    font-weight: 500;
+}
+
+.field { margin-bottom: 1.1rem; }
+
+.field label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: 700;
+}
+
+.field input {
+    width: 100%;
+    padding: 0.7rem 0.85rem;
+    font: inherit;
+    color: var(--ink);
+    background: var(--white);
+    border: 2px solid var(--ink);
+    border-radius: 6px;
+}
+
+.field input:focus-visible {
+    outline: 3px solid var(--orange);
+    outline-offset: 2px;
+}
+
+.btn-block {
+    width: 100%;
+    margin-top: 0.4rem;
+    font: inherit;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-help {
+    margin: 1.5rem 0 0.5rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.login-back { margin: 0; font-size: 0.9rem; }
+
+@media (max-width: 820px) {
+    .login-card { box-shadow: 5px 5px 0 var(--ink); padding: 1.5rem; }
+}

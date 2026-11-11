@@ -133,7 +133,7 @@ a:focus-visible,
     border: 2px solid var(--ink);
     border-radius: 10px;
     padding: 1.4rem;
-    box-shadow: 8px 8px 0 var(--ink);
+    box-shadow: none;
 }
 
 .tracker-title { margin: 0; font-size: 1.15rem; }
@@ -231,7 +231,6 @@ a:focus-visible,
     .roles { grid-template-columns: 1fr; }
     .nav a:not(.btn) { display: none; }
     .logo { height: 40px; }
-    .tracker { box-shadow: 5px 5px 0 var(--ink); }
 }
 
 @media (prefers-reduced-motion: reduce) {
